@@ -8,4 +8,3 @@ def test_sigmoid():
     assert sigmoid(0.0) == 0.5
     assert sigmoid(-log(3)) == 0.25
     assert sigmoid(log(3)) == 0.75
-    
